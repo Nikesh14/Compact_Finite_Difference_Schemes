@@ -29,9 +29,8 @@ int main(){
 
     vector<double>numerical_res;
     numerical_res = compact_periodic(left_end, right_end, grid_point, func, order_accuracy);
-    for(int i=0; i<grid_point; ++i){
-	    cout<< numerical_res[i] << "\n";
-	}
+    for(int i=0; i<grid_point; ++i)
+	cout<< numerical_res[i] << "\n";
     return 0;
 
 }
